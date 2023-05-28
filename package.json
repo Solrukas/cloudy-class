@@ -1,0 +1,22 @@
+{
+  "name": "cloudy-class",
+  "version": "1.0.0",
+  "description": "2023-1 DU-도전학기",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solrukas/cloudy-class.git"
+  },
+  "author": "solrukas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Solrukas/cloudy-class/issues"
+  },
+  "homepage": "https://github.com/Solrukas/cloudy-class#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
