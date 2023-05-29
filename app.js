@@ -8,6 +8,7 @@ const server_port = "8080";
 // express json
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
 
 // express route
 const router = require('./routes/router');
