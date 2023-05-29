@@ -11,20 +11,16 @@ router.get('/', (req, res) => {
     res.sendFile(filePath);
 });
 
-router.get('/login', (req, res) => {
-    res.redirect('/login.html');
+router.get('/api', (req, res) => {
+    res.redirect('/api.html');
 });
 
-router.get('/register', (req, res) => {
-    res.redirect('/register.html');
+router.get('/storage', (req, res) => {
+    res.redirect('/storage.html');
 });
 
-router.post('/login', (req, res) => {
-    console.log(req.body);
-});
-
-router.post('/register', (req, res) => {
-    console.log(req.body);
+router.get('/containers', (req, res) => {
+    res.redirect('/containers.html');
 });
 
 module.exports = router;
