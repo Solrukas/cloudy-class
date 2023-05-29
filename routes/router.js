@@ -15,4 +15,16 @@ router.get('/login', (req, res) => {
     res.redirect('/login.html');
 });
 
+router.get('/register', (req, res) => {
+    res.redirect('/register.html');
+});
+
+router.post('/login', (req, res) => {
+    console.log(req.body);
+});
+
+router.post('/register', (req, res) => {
+    console.log(req.body);
+});
+
 module.exports = router;
